@@ -79,6 +79,9 @@ function EndFooter() {
                     allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf 
                     of others. If you find anyone claiming to be part of Zerodha and offering such services, please create a ticket here.
                 </p>
+                 <h3><i class="fa-brands fa-github"></i><a href="https://github.com/AtharvGangwar48"> Atharv48 </a> 
+                &nbsp; &nbsp; &nbsp; &nbsp; 
+                <i class="fa-brands fa-linkedin-in"></i><a href="https://in.linkedin.com/in/atharvgangwar"> atharvgangwar </a></h3>
             </div>
         </footer>
      );
