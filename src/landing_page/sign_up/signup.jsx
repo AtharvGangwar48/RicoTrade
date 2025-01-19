@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 
 function signup() {
     return ( 
@@ -9,7 +8,7 @@ function signup() {
                     <br />
                     <h1>Sign Up</h1>
                     <br />
-                <form class="row g-3 needs-validation" noValidate>
+                <form action="https://tradingrico.onrender.com" class="row g-3 needs-validation" noValidate>
                 <div class="col-md-4">
                     <label for="validationCustom01" class="form-label">Name</label>
                     <input type="text" class="form-control" id="validationCustom01" placeholder="Full Name" required />
@@ -63,7 +62,7 @@ function signup() {
                     <br />
                     <h1>Sign in</h1>
                     <br />
-                    <form action="#" noValidate>
+                    <form action="https://tradingrico.onrender.com" noValidate>
                     <div class="col-md-4">
                     <label for="validationCustomUsername" class="form-label">Username</label>
                     <div class="input-group has-validation">
@@ -95,7 +94,8 @@ function signup() {
                 The Sign up and Sign in route are required to redirect to another server i.e. Dashboard but currently requires some changes in MongoDB files for user record so these are not working right Now! 
                 <br />
                 <br />
-                You can directly see Dasboard clone by visiting <Link to='/dasboard'>Link</Link>
+                You can directly see Dasboard clone by visiting 
+                <form action="https://tradingrico.onrender.com"> <br /> <button className='btn btn-danger'>TradingRico.onrender.com</button></form>
             </div>
         </div>
      );
